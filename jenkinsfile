@@ -38,7 +38,7 @@ pipeline{
             }
         }
 
-        stage('Deploy to Production'){
+        stage('Deploy to Production Test for auto build'){
             steps{
                 echo 'Deploying application to production server AWS EC2 Instance'
             }
